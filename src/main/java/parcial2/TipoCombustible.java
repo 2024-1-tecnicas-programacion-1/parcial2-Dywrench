@@ -1,5 +1,5 @@
 package parcial2;
-
-public enum TipoCombustible {
-    // TODO: Tu código va aquí
+import java.io.Serializable;
+public enum TipoCombustible implements Serializable{
+    GASOLINA,ELECTRICO,HIBRIDO,CRUISER,SCOOTER,ENDURO
 }

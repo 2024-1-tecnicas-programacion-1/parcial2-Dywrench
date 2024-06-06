@@ -1,5 +1,6 @@
 package parcial2;
-
-public enum TipoMotocicleta {
-    // TODO: Tu código va aquí
+import java.io.Serializable;
+public enum TipoMotocicleta implements Serializable{
+    // O(1) Constante.
+    DEPORTIVA,TOURING,NAKED,CAFE_RACER,CRUISER,SCOOTER,ENDURO
 }

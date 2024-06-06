@@ -7,8 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 public class TipoCombustibleTest {
-    // TODO: Descomenta el siguiente código una vez hayas completado el enumerado TipoCombustible
-    /**
+    
     @Test
     public void testEnumValues() {
         TipoCombustible[] expectedValues = {
@@ -49,5 +48,5 @@ public class TipoCombustibleTest {
         assertNotNull(TipoCombustible.ELECTRICO);
         assertNotNull(TipoCombustible.HIBRIDO);
     }
-    **/
+    
 }
